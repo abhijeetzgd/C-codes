@@ -1,0 +1,39 @@
+there are mainly two types of operation
+1.Increment
+2.Decrement
+
+and they are further divided into two part :
+1.pre(++a)
+2.post(a++)
+
+so here we are talking about only Increment
+
+To chaliye shuru karte he bina kisi backchodi ke
+
+operation 1:Pre Increment
+eg. ++a
+    so when you use ++ operator with any oparand(a)
+    then it internally call function
+
+    int PreIncrement(int a){  //consider it as function name
+      /* so it will simply Increment a by consider
+      a=a+1;
+      return a;
+    } //there is only one reference of a,everytime
+//basically here value of a Increment and then assigned to its reference
+____________________________________________________________________________
+operation 2: Post Increment
+eg. a++
+    so when we use ++ operator after operand(a)
+    then it internally calls a function
+
+    int post_inncrement(int a) {
+    int temp = a;//value of a is copied to temp
+    a=a+1;
+    return temp;//hereit returns initial value of a
+    }
+    // so basically in post_increment value is assigned to its reference and then incremented
+
+------------------------------------------------------------------------------
+samjhe ? to intelligent_bhola channel ko subscribe kijiye
+--------------------------------------------------------------------------------

@@ -1,0 +1,58 @@
+
+
+
+1. C/C++ program to find the sizeof the pointer variables int,float,char,double,void
+	
+2. why we cannot store address in normal int variable ? and why the seperatre '*' notation for pointer ?  express your answer through code----------->
+
+3.Why pointers of one type should store address of that type element only---> express ypur answer through code
+
+4.write a program to find the sum of the array elements using array pointer relation
+
+5.  write a program to find product of the element of the array  and check wheter it is amstrong or not using array pointer relation (no subscript operator  are allowed while acessing the element)
+
+	Input : arr[12 ,32,54,65]
+	
+	output : product =12*32*54*65
+		
+		product is amstrong or not	
+		
+6.write a program ..... take a 11 digit number  split the the number in each array element 
+	store the numbers in array  find the product of the each digit by using array pointer realtion
+	
+	input : num=12345678912
+	
+	output :arr[1,2,3,4,5,6,7,8,9,1,2]
+		product= 1x2x3x4x5x6x7x8x9x1x2
+
+7. write a program ..... take an integer array of size 25 store the 25 element in array1 ....take another array 2 insert address of each element in the array2 and reverse the element by using array2 (while reversing the element u shud not use array1)
+
+8. write a program........ take 1d array of size 3 having 15digit elements in each index (return type not be int ,long int of array) and find count of repeted number in each element and find sum of all counts 
+
+		intput : array [ 123456681231564 , 124531356742313 , 134567124567245]
+			
+                                     count of repeted numbers (digits) =7,8,9(these are just for examples)
+				sum = 24
+9. write a program............take an array of size20 .............store the address of array in pointer and insert the element and display through pointer
+
+10. write a program...........take an 3d array ........store the address in pointer and find the each element in the array is strong number or not  by using pointer
+
+11.write a program ..........take an 2d array..........store the address of array in pointer and that pointer address in another pointer insert the element and find the count of palindrome number  
+
+			2d array arr[3][3]
+			pointer1=arr
+			pointer2=pointer1
+
+			operation sud be done by using pointer2
+		  
+12. write a program ...........take an 3d array......store the address of the array in pointer find the count of prime number in array using pointer
+
+13. write a program..........take an 2d array.......store the address of the array in void pointer.......and print the element in the array using pointer(void)
+
+14. write a program...........take 1d array1 of size 4.....store int in first index, float in second index, char in third index, double in fourth index......and print all values using array1
+
+15. write a program ........ take two 2d arrays array1 and array2.........store the address of arrays in pointer and find the comman element in the arrays and print the addition of both comman values
+
+
+	
+ 
